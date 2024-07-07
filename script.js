@@ -1,51 +1,4 @@
 
-// var crsr = document.querySelector("#cursor")
-// var blur_crsr = document.querySelector("#cursor-blur")
-
-
-// document.addEventListener("mousemove",function(dets) // dets = x and y ki value
-// {
-//     // cursor small dot
-//     crsr.style.left = dets.x+"px"
-//     crsr.style.top = dets.y+"px"
-
-//     //cursor big dot
-//     blur_crsr .style.left = dets.x-200+"px"
-//     blur_crsr .style.top = dets.y-200+"px"
-// })
-
-
-
-
-// gsap.to("#nav", {
-//     backgroundColor : "#000",
-//     duration:0.5,
-//     height:"110px",
-//     scrollTrigger:{
-//         trigger:"#nav",
-//         scroller:"body",
-//         start:"top -10%",
-//         end:"top -11%",
-//         scrub:1
-//     }
-
-// })
-
-// gsap.to("#main" , {
-
-//     backgroundColor:"#000",
-//     scrollTrigger:{
-//         trigger:"#main",
-//         scroller:"body",
-//         start:"top -25%",
-//         end: "top -70%",
-//         scrub:2
-//     }
-
-// }
-
-// )
-
 var crsr = document.querySelector("#cursor");
 var blur = document.querySelector("#cursor-blur");
 
@@ -158,5 +111,3 @@ gsap.from("#page4 h1", {
     scrub: 3,
   },
 });
-
-// Thanks itna aage tak aane ke liye lekin pura code utha ke copy paste karne ki jagah khud ek baar banane ka try karna, kuch naya seekhne ko milega!
